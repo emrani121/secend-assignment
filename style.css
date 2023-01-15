@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500;700&display=swap');
+
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+nav{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 30px 200px;
+}
+
+
+.header-section{
+    display: flex;
+    justify-content: space-between;+
+    
+}
+
+.header-section .logo{
+    font-size: 40px;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-list li{
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+.menu-list li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Brand title */
+
+.Brand-tilte{
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px 100px ;
+
+}
+.Brand-tilte h1{
+    font-size: 50px;
+}
+
+.Brand-tilte p{
+    margin-top: 20px;
+}
+
+.first-picture{
+    height: 400px;
+    border: 1px solid red;
+    height: 300px;
+}
+
+/* secend section */
+
+.secend-section-containar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 105px;
+}
+
+.section-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.section-right{
+    padding-left: 15px;
+    padding-top: 250px;
+}
+
+.section-right h1{
+    margin-bottom: 20px;
+}
+
+.section-right p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.section-right button{
+    padding: 10px 15px;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+}
+
+
+/* Third section */
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.box-list1{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+
+.box-list1 h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+} 
+
+.box-list2{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.box-list2 h1{
+    font-size: 20px;
+}
+.box-list2  p{
+    font-size: 15px;
+}
+
+
+.third-img{
+    margin-left: 20px;
+}
+
+.box-list3{
+    height: 100px;
+    width: 150px;
+    background-color: red;
+
+}
+
+/* mini titel */
+.mini-title{
+    padding-left:  130px;
+    margin-top: 30px;
+
+}
+
+
+/* Fortha section  */
+.thiri-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 100px;
+    
+}
+
+.div3{
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.box1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.box1 img{
+    margin-top: 20px;
+}
+
+.box1 h1{
+    font-size: 35px;
+    padding: 5px;
+}
+
+.box1 p{
+    font-size: 20px;
+    color: #727272;
+}
+
+/* fivethe-section */
+.fivethe-section{
+   
+    padding: 50px 400px;
+    text-align: center;
+}
+
+.fivethe-section h1{
+    font-size: 45px;
+}
+
+.fivethe-section p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* sixtha-section */
+.sixtha-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 10px 100px;
+}
+
+.sixtha-section img{
+    color: #727272;
+}
+
+.footer-sec{
+    margin-top: 20px;
+ padding: 50px 100px;
+}
+.foot{
+    background-color: #FFF4E7;
+    text-align: center;
+    
+}
+.footer-sec p{
+    font-size: 15px;
+    padding: 15px 10px;
+}
